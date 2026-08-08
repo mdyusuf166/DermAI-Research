@@ -1,0 +1,31 @@
+dataset_path: "./SUAPUai/skin-cancer-detection-ham10000/"
+results_dir: "results"
+metadata_filename: "HAM10000_metadata.csv"
+image_folders:
+  - "images"
+seed: 42
+image_size: 224
+batch_size: 32
+epochs: 10
+learning_rate: 1e-4
+weight_decay: 1e-4
+optimizer: "AdamW"
+scheduler: "ReduceLROnPlateau"
+num_workers: 2
+use_amp: false
+pretrained: true
+freeze_backbone_epochs: 0
+class_strategy: "standard"
+focal_gamma: 2.0
+checkpoints_dir: "checkpoints"
+figures_dir: "results/figures"
+primary_metric: "macro_f1"
+test_size: 0.15
+validation_size: 0.15
+model_names:
+  - "baseline_cnn"
+  - "resnet18"
+  - "resnet34"
+  - "resnet50"
+  - "densenet121"
+  - "efficientnet_b0"
