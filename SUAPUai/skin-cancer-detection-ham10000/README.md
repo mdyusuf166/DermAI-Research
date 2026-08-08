@@ -120,9 +120,6 @@ Pipeline steps included:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
 
 ---
 
@@ -136,5 +133,4 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 * Colab GPU support for training large models
 
 ## 👥 Contributors
-- [Mariam Maria](https://github.com/findmariammariaa)  
-- [Sudipto Dey Himel](https://github.com/himel5113)  
+- MD Yousuf
