@@ -1,10 +1,4 @@
-হ্যাঁ। তোমার current repository-টা এখন শুধু **“89% accuracy skin cancer classifier”** হিসেবে রাখলে project-এর research value অনেক কম দেখাবে।
 
-তোমার existing pipeline already has a strong foundation: **leakage-aware grouped splitting, multiple architectures, class-imbalance strategies, reproducible configs, checkpointing, evaluation reports**। এখন এটাকে তোমার style অনুযায়ী **research-grade Skin Lesion Intelligence platform**-এ evolve করা যায়।
-
-আমি README-তে **যেগুলো already implemented সেগুলো আলাদা**, আর **future research যেগুলো এখনো বানাওনি সেগুলো clearly Planned** রাখছি। এতে fake claim হবে না।
-
-নিচেরটা তোমার current repository-এর জন্য ব্যবহার করতে পারো।
 
 # 🧬 SKIN-XAI — Skin Lesion Intelligence & Explainable AI Research Lab
 
